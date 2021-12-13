@@ -13,7 +13,7 @@ function renderLicenseLink(data) {
   if (data.license === "None") {
     return false}
    else {
-    return `For information on the ${data.license} license, visit [https://opensource.org/licenses/](https://opensource.org/licenses/)`
+    return `"For information on ${data.license}, visit [https://opensource.org/licenses/](https://opensource.org/licenses/)"`
 }}
 
 // TODO: Create a function that returns the license section of README
@@ -60,7 +60,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Contact the author with any questions!
+  Contact the developer with any questions!
   Github User Link: [${data.link.trim().toLowerCase()}](https://${data.link.trim().toLowerCase()})
   Email: [${data.email.trim().toLowerCase()}](${data.email.trim().toLowerCase()})
 `;
