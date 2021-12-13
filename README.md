@@ -21,6 +21,10 @@
   ## Usage
   This application can be used for any project to help prompt user for information for the project's readme. See video to show functionality and how to use application.
 
+  ![Demo of readme-generator application.](./assets/readmegen.gif)
+
+  [Click here to see example of application.](https://drive.google.com/file/d/1ZrHR_Rjgyk-MHbjOykzkJV2eg2bpXM-a/view)
+
   ## License 
     This project is not covered under a specific license.
 
